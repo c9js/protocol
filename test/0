@@ -1,0 +1,11 @@
+#!/bin/bash
+clear
+
+# if [ -z "${1}" ]; then
+#     echo "Как надо: $0 <имя файла>"
+#     echo "Например: $0 0"
+#     echo "Запустит: test/0.js"
+#     exit 1
+# fi
+
+npx -y nodemon --quiet "0.js"
